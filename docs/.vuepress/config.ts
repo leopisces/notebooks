@@ -32,21 +32,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
-      { 
-        text: '博文', link: '/blog/',
-        items: [
-          { text: 'Vue', link: '/blog/vue/' },
-          { text: 'JavaSE', link: '/blog/javase/' },
-          { text: 'MySQL', link: '/blog/mysql/' },
-          { text: '微服务', link: '/blog/micro/' },
-          { text: '开发工具', link: '/blog/tool/' },
-          { text: 'Linux', link: '/blog/linux/' },
-          { text: 'Kubernetes', link: '/blog/k8s/' },
-          { text: 'Spring', link: '/blog/spring/' },
-          { text: '计算机基础', link: '/blog/computer/' },
-          { text: 'GitLab', link: '/blog/gitlab/' },
-        ]
-      },
       {
         text: '资源', link: '/pages/5ee1cb/'
       },
@@ -82,14 +67,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '运维', link: '/operation/',
         items: [
-          { text: 'Linux 命令行',link: 'https://www.runoob.com/linux/linux-command-manual.html' },
-          { text: 'Docker 命令行', link: 'https://www.runoob.com/docker/docker-command-manual.html'},
           { text: 'Kubernetes',link: '/operation/k8s/'},
-          { text: 'Kubernetes 命令行',link: '/pages/c16ed8/'},
-          { text: 'Kubernetes 部署',link: '/operation/k8s-deploy/'},
-          { text: 'Helm',link: '/pages/d38a21/' },
-          { text: 'Helm 部署',link: '/operation/helmdeploy/' },
-          { text: 'Git',link: '/pages/2af37c/' },
+          { text: 'Helm',link: '/operation/helm/' },
           { text: '.gitignore',link: '/pages/92268b/' },
         ]
       },
