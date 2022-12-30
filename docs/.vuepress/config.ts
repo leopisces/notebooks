@@ -38,11 +38,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '前端', link: '/web/',
         items: [
-          { text: 'HTML', link: 'https://www.runoob.com/html/html-tutorial.html', },
-          { text: 'CSS', link: 'https://www.runoob.com/css/css-tutorial.html', },
-          { text: 'JavaScript', link: 'https://www.runoob.com/js/js-tutorial.html', },
           { text: 'Vue', link: '/web/vue/', },
-          { text: 'Vue Router', link: 'https://router.vuejs.org/zh/guide/' },
           { text: 'npm', link: '/pages/7aae99/', }
         ]
       },
@@ -60,9 +56,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '数据库', link: '/db/',
-        items: [
-          { text: 'MySQL', link: 'https://www.runoob.com/mysql/mysql-tutorial.html' }
-        ]
       },
       {
         text: '运维', link: '/operation/',
