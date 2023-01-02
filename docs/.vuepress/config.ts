@@ -50,6 +50,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Java 注解', link: '/pages/ea0df1/' },
           { text: 'JDBC', link: '/pages/03097c/' },
           { text: 'Maven', link: '/pages/08c45a/' },
+          { text: 'Maven 配置', link: '/pages/6a9c06/' },
           { text: 'Spring', link: '/server/spring/'},
           { text: 'SpringBoot', link: '/server/springboot/'}
         ]
