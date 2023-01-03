@@ -53,7 +53,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Maven 配置', link: '/pages/6a9c06/' },
           { text: 'POM 配置', link: '/pages/6cf7fc/' },
           { text: 'Spring', link: '/server/spring/'},
-          { text: 'SpringBoot', link: '/server/springboot/'}
+          { text: 'SpringBoot', link: '/server/springboot/'},
+          { text: 'SpringCloud', link: '/server/springcloud/'},
         ]
       },
       {
